@@ -1,0 +1,43 @@
+body{
+    /*background-image: url("PMI.jpg");
+    background-repeat: repeat-x;
+    background-color: black;
+    background-position: fixed;*/
+    background: repeat-x skyblue fixed url("PMI.jpg")
+    
+}
+
+.firstDiv,.secondDiv,.thirdDiv,.fourthDiv{
+    padding: 2%;
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 4em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    word-spacing: 1em;
+}
+
+.firstDiv{
+    margin-top: 10%;    
+    border-style: solid;
+    border-color: brown;
+    border-width: 2px;
+    /*border:solid brown 2px;    */
+}
+.secondDiv{
+    margin-left: 10%;
+    border-top:solid green 4px;
+}
+
+.thirdDiv{
+    margin-top: 25px;
+    border-left:solid black 2px;
+}
+
+.fourthDiv{
+    border-bottom:solid black 5px;
+}
+
+
+
